@@ -24,6 +24,7 @@ jQuery(document).ready(function ($) {
     };
     material = new THREE.ShaderMaterial({
       uniforms: uniforms,
+      // these elements are in the page body
       vertexShader: document.getElementById("vertexShader").textContent,
       fragmentShader: document.getElementById("fragmentShader").textContent,
     });
