@@ -15,15 +15,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-#smoke canvas {
-  position: relative;
-  top: -500px;
-  margin-bottom: -500px;
-  filter: grayscale();
-}
-#smoke > div {
-  z-index: 3;
-}
 
 .elementor-text-editor p,
 .elementor-text-editor a {
