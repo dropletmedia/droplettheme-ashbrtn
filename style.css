@@ -1,0 +1,36 @@
+/*
+Theme Name: droplettheme
+Description: This is a child theme
+Theme URI: https://wordpress.org/
+Author: Phil Picton
+Author URI: https://dropletmedia.co.uk
+Template: hello-elementor
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hello-elementor
+*/
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#smoke canvas {
+  position: relative;
+  top: -500px;
+  margin-bottom: -500px;
+  filter: grayscale();
+}
+#smoke > div {
+  z-index: 3;
+}
+
+.elementor-text-editor p {
+  font-size: 1.2em;
+  color: #666666;
+}
+
+.elementor-drop-cap {
+  color: #6c8cc7;
+  font-family: Copperplate;
+}
