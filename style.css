@@ -25,12 +25,14 @@ body {
   z-index: 3;
 }
 
-.elementor-text-editor p {
+.elementor-text-editor p,
+.elementor-text-editor a {
   font-size: 1.2em;
   color: #666666;
 }
 
 .elementor-drop-cap {
-  color: #6c8cc7;
+  color: #718fc8;
   font-family: Copperplate;
 }
+/* #718fc8 */
